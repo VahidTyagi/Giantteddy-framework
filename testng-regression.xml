@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="RegressionSuite">
+
+    <test name="RegressionTests">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.giantteddy.tests">
+                <classes>
+                    <class name="com.giantteddy.tests.TC04_WishlistTest"/>
+                    <class name="com.giantteddy.tests.TC10_SearchPageTest"/>
+                    <class name="com.giantteddy.tests.TC03_ProductPageTest"/>
+                    <class name="com.giantteddy.tests.TC05_CartPageTest"/>
+                    <class name="com.giantteddy.tests.TC06_CheckoutPageTest"/>
+                    <class name="com.giantteddy.tests.TC07_CODVerificationTest"/>
+                    <class name="com.giantteddy.tests.TC08_ThankYouPageTest"/>
+                    <class name="com.giantteddy.tests.TC09_OrderHistoryTest"/>
+                </classes>
+            </package>
+        </packages>
+    </test>
+
+</suite>
