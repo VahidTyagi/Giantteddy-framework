@@ -26,7 +26,7 @@ public class TC09_OrderHistoryTest {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
         // Navigate to Order History page URL
-        driver.get("https://example.com/order-history"); // replace with real URL
+        driver.get("https://giantteddy/order-history"); // replace with real URL
 
         orderHistoryPage = new OrderHistoryPage(driver);
     }
