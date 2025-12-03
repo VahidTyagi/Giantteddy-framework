@@ -26,7 +26,7 @@ public class TC10_SearchPageTest {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
         // Navigate to Search page URL
-        driver.get("https://example.com/search"); // replace with real URL
+        driver.get("https://giantteddy.com/search"); // replace with real URL
 
         searchPage = new SearchPage(driver);
     }
