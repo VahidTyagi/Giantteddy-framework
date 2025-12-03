@@ -26,7 +26,7 @@ public class TC04_WishlistTest {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
         // Navigate to Wishlist page URL
-        driver.get("https://example.com/wishlist"); // replace with real URL
+        driver.get("https://giantteddy.com/wishlist"); // replace with real URL
 
         wishlistPage = new WishlistPage(driver);
     }
