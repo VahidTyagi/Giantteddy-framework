@@ -26,7 +26,7 @@ public class TC08_ThankYouPageTest {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
         // Navigate to Thank You page URL
-        driver.get("https://example.com/thank-you"); // replace with real URL
+        driver.get("https://giantteddy.com/thank-you"); // replace with real URL
 
         thankYouPage = new ThankYouPage(driver);
     }
